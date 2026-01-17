@@ -7,10 +7,10 @@ const Header = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   const menuItems = [
-    { label: 'MY FAVORITES', path: '/' },
-    { label: 'RECIPE INDEX', path: '/' },
-    { label: 'BY CATEGORY', path: '/' },
-    { label: 'ABOUT', path: '/' }
+    { label: 'MY FAVORITES', path: '/favorites' },
+    { label: 'RECIPE INDEX', path: '/recipes' },
+    { label: 'BY CATEGORY', path: '/categories' },
+    { label: 'ABOUT', path: '/about' }
   ];
 
   return (
